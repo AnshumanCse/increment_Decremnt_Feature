@@ -7,6 +7,8 @@ const spanText = document.getElementById("spanText");
 decrement.innerHTML;
 let DefaultInputValue = 1;
 let limitValue = 5;
+
+//increment logic
 increment.addEventListener("click", (e) => {
   DefaultInputValue++;
    
@@ -18,6 +20,7 @@ increment.addEventListener("click", (e) => {
     }
     
 });
+//decrement logic
 decrement.addEventListener("click", (e) =>{
   if  (inputBox.value > 1) {
   inputBox.value--;
